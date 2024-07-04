@@ -71,8 +71,8 @@ CD_TOOLS: "local"  # local、aliyun Open source version only supports Alibaba Cl
 CD_ACCESS_KEY: ""
 CD_SECRET_KEY: ""
 
-DEVOPS_TOOLS: "local" # local、gitlab、github  Please refer to the official documentation of the tool to learn how to use it. 请查阅相关工具的官方文档了解如何使用
-GIT_ENABLED: true  # Whether to enable Git. If yes, pull code from Git(Note APPS.service.git_path configuration item). 是否开启Git，如果开启将从Git中拉代码（注意 APPS.service.git_path 配置项）
+DEVOPS_TOOLS: "local" # local、gitlab、github  Please refer to the official documentation of the tool to learn how to use it. 
+GIT_ENABLED: true  # Whether to enable Git. If yes, pull code from Git(Note APPS.service.git_path configuration item). 
 GIT_URL: "https://github.com"  # https://github.com、https://gitlab.com
 GIT_API: "https://api.github.com" # https://api.github.com
 GIT_TOKEN: "xxxx"   # Get from here https://github.com/settings/tokens、https://gitlab.com/-/profile/personal_access_tokens
